@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="/css/cart.css" />
+
+        <!-- ===== BOX ICONS ===== -->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule=""
+            src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+        ></script>
+
+        <title>aromakreativ.de/warenkorb</title>
+    </head>
+    <body>
+        <header>
+            <section class="cart section active" id="cart">
+                <div class="overlay"></div>
+                <nav>
+                    <h2>Warenkorb</h2>
+                    <ul>
+                        <li class="cart">
+                            <a href="/cart">
+                                <ion-icon name="basket"></ion-icon>Artikel
+                                <span>0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+    
+            <div class="container-products">
+                <div class="product-header">
+                    <h5 class="product-title">Artikel</h5>
+                    <h5 class="price sm-hide">Preis</h5>
+                    <h5 class="quantity space">Anzahl</h5>
+                    <h5 class="total">Gesamt</h5>
+                </div>
+                <div class="products"></div>
+            </div>
+           
+            </section>
+        
+            <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="/js/main.js"></script>
+    </body>
+</html>

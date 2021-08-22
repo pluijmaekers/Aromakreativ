@@ -1,0 +1,28 @@
+{
+    "name": "Aromakreativ",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "hbs": "^4.1.2",
+        "nodemon": "^2.0.12"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pluijmaekers/Aromakreativ.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pluijmaekers/Aromakreativ/issues"
+    },
+    "homepage": "https://github.com/pluijmaekers/Aromakreativ#readme"
+}
